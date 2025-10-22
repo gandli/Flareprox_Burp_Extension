@@ -21,6 +21,7 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
+          cache: 'gradle'
 
       - name: Make gradlew executable
         run: chmod +x gradlew
@@ -32,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: burp-extension
-          path: build/libs/*.jar
+          path: build/libs/Flareprox.jar
           retention-days: 30
 
   release:
@@ -52,7 +53,7 @@ jobs:
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v1
         with:
-          files: dist/**
+          files: dist/Flareprox.jar
           draft: false
           generate_release_notes: true
           name: ${{ github.ref_name }}
