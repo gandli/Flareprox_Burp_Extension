@@ -1,4 +1,4 @@
-# Flareprox [![Build and Release](https://github.com/gandli/Flareprox_Burp_Extension/actions/workflows/build.yml/badge.svg)](https://github.com/gandli/Flareprox_Burp_Extension/actions/workflows/build.yml)
+# Flareprox_Burp_Extension [![Build and Release](https://github.com/gandli/Flareprox_Burp_Extension/actions/workflows/build.yml/badge.svg)](https://github.com/gandli/Flareprox_Burp_Extension/actions/workflows/build.yml)
 
 Flareprox is a Burp Suite extension that provisions on-demand Cloudflare Worker proxies and tunnels your traffic through Cloudflare's edge network. It helps red teamers, penetration testers, and researchers originate requests from diverse Cloudflare PoPs without changing their local proxy layout, making it easier to blend in with Cloudflare-originated traffic or rotate IPs during testing.
 

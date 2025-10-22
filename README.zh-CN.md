@@ -1,4 +1,4 @@
-# Flareprox [![Build and Release](https://github.com/gandli/Flareprox_Burp_Extension/actions/workflows/build.yml/badge.svg)](https://github.com/gandli/Flareprox_Burp_Extension/actions/workflows/build.yml)
+# Flareprox_Burp_Extension [![Build and Release](https://github.com/gandli/Flareprox_Burp_Extension/actions/workflows/build.yml/badge.svg)](https://github.com/gandli/Flareprox_Burp_Extension/actions/workflows/build.yml)·
 
 Flareprox 是一款 Burp Suite 扩展，能够按需部署 Cloudflare Worker 代理，并通过 Cloudflare 边缘网络转发流量。它帮助红队、渗透测试人员和安全研究者从不同的 Cloudflare PoP 发起请求，无需改动本地代理配置，便于与 Cloudflare 流量混淆或在测试期间轮换出口 IP。
 
