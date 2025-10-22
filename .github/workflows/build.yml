@@ -5,8 +5,16 @@ on:
     branches: [ main, master ]
     tags:
       - 'v*'
+    paths-ignore:
+      - '**/*.md'
+      - 'README*'
+      - '.java-version'
   pull_request:
     branches: [ main, master ]
+    paths-ignore:
+      - '**/*.md'
+      - 'README*'
+      - '.java-version'
   workflow_dispatch:
 
 jobs:
